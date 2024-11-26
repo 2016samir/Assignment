@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="icon" href="./image/title.png">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+<h1>Bookmarker</h1>
+
+
+<div class="content mt-5 py-4">
+
+<div class="title d-flex justify-content-center">
+    <i class="fa-solid fa-bookmark fs-3" style="color: #0c3c11;"></i>
+    <h2 class="mx-2">Bookmark your favorite sites</h2>
+    <i class="fa-solid fa-bookmark fs-3" style="color: #6d991c;"></i>
+</div>
+
+<div class="siteName">
+    <div class="mb-3">
+        <i class="fa-solid fa-book-bookmark" style="color: #000000;"></i>
+        <label for="SiteName" class="form-label">Site Name</label>
+        <input type="text" class="form-control" id="SiteName" placeholder="Bookmark Name">
+        <p class="text-danger d-none mb-0">wrong site name</p>
+    </div>
+</div>
+<div class="siteURL">
+    <div class="mb-3">
+        <i class="fa-solid fa-link" style="color: #000000;"></i>
+        <label for="SiteURL" class="form-label">Site URL</label>
+        <p class="text-danger d-none mb-0">wrong site url</p>
+        <input type="text" class="form-control" id="SiteURL" placeholder="Website URL">
+      </div>
+</div>
+
+<div class="text-center">
+<button id="submit" class="btn btn-danger px-5">submit</button>
+</div>
+
+
+</div>
+
+<!-- the inputs -->
+
+<div class="inputs mt-4">
+<div class="container">
+
+    <div class="row bg-white text-center">
+    <div class="col-md-3">
+    <h3>Index</h3>    
+    </div>
+    <div class="col-md-3">
+    <h3>Website Name</h3>    
+    </div>
+    <div class="col-md-3">
+    <h3>Visit</h3>    
+    </div>
+    <div class="col-md-3">
+    <h3>Delete</h3>    
+    </div>
+</div>
+
+<div id="theinputs">
+    
+</div>
+
+</div>
+</div>
+
+
+
+
+
+    <script src="./script.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

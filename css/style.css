@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7ecde;
+}
+
+
+h1{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'pacifico', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(53,46, 40);
+    line-height: 60px;
+    position: relative;
+}
+
+h1::after{
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30%;
+    background-color: rgba(255, 166, 0, 0.6);
+    transition: all 0.5s;
+}
+
+h1:hover::after{
+    height: 70%;
+}
+
+.title h2{
+    width: fit-content;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    background-image:linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    border-top: dotted 2px black;
+    border-bottom: dotted 2px black;
+}
+
+.content label{
+    font-family: "PT Sans caption" , sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(33, 37,41);
+    padding-left: 7px;
+}
+
+.row{
+border-bottom: 3px solid #f7ecde;
+}
+
+
+.row h3{
+    font-family: "PT Sans caption" , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(33,37,41);
+}
+
+.delete{
+    background-color: ;
+    color: white;
+}
